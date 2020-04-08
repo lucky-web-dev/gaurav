@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>My Webpage!</title>
+    <style>
+        body{
+            background-color:#a1f2f7;
+        }
+        h1{
+            color:red;
+            font-size:50px;
+        }
+        p{
+            text-align:center;
+            color:#7300ff;
+            font-size:40px;
+        }
+    </style>
+<head>
+<body>
+    <h1>{% block heading %} {% endblock%}</h1>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
