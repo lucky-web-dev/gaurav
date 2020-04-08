@@ -1,0 +1,22 @@
+
+<html>
+<head><title>My First Webpage!</title>
+    <style>
+    body{
+        background-color:blue;
+    }
+    li{
+        padding:50px;;
+        text-align: center;
+        font-size: 100px;
+        color:red;
+    }
+    </style>
+    </head>
+<body>
+    <ul>
+{% for na in name %}
+    <li style="color:red; text-align: center;"">{{na}}</li>
+{% endfor %}
+</ul>
+</body></html>
